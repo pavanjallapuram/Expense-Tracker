@@ -4,7 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.zobazeexpensetracker.data.Expense
 import com.example.zobazeexpensetracker.data.ExpenseUiState
-import com.example.zobazeexpensetracker.listeners.ExpenseRepository
+import com.example.zobazeexpensetracker.data.ExpenseRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow

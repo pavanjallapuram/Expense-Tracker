@@ -1,12 +1,6 @@
-package com.example.zobazeexpensetracker.listeners
-
-import com.example.zobazeexpensetracker.data.Expense
-import com.example.zobazeexpensetracker.room.CategoryTotal
-import com.example.zobazeexpensetracker.room.DailyTotal
-import com.example.zobazeexpensetracker.room.ExpenseDao
+package com.example.zobazeexpensetracker.data
 
 import kotlinx.coroutines.flow.Flow
-
 
 interface ExpenseRepository {
     fun getAllExpensesFlow(): Flow<List<Expense>>

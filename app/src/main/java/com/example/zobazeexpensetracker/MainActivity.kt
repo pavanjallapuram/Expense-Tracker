@@ -33,8 +33,8 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.room.Room
-import com.example.zobazeexpensetracker.room.ExpenseDatabase
-import com.example.zobazeexpensetracker.room.RoomExpenseRepository
+import com.example.zobazeexpensetracker.data.ExpenseDatabase
+import com.example.zobazeexpensetracker.data.RoomExpenseRepository
 import com.example.zobazeexpensetracker.screens.ExpenseEntryScreen
 import com.example.zobazeexpensetracker.screens.ExpenseListScreen
 
@@ -43,6 +43,7 @@ import com.example.zobazeexpensetracker.ui.theme.PrimaryColor
 import com.example.zobazeexpensetracker.ui.theme.SecondaryColor
 import com.example.zobazeexpensetracker.ui.theme.ZobazeExpenseTrackerTheme
 import com.example.zobazeexpensetracker.viewmodels.ExpenseViewModel
+import com.example.zobazeexpensetracker.viewmodels.ExpenseViewModelFactory
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
 import kotlinx.coroutines.launch
 

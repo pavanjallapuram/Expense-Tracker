@@ -1,7 +1,5 @@
-package com.example.zobazeexpensetracker.room
+package com.example.zobazeexpensetracker.data
 
-import com.example.zobazeexpensetracker.data.Expense
-import com.example.zobazeexpensetracker.listeners.ExpenseRepository
 import java.util.Calendar
 
 class RoomExpenseRepository(private val dao: ExpenseDao) : ExpenseRepository {

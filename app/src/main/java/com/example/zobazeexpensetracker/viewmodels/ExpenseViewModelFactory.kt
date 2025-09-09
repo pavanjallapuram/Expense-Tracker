@@ -1,10 +1,8 @@
-package com.example.zobazeexpensetracker
+package com.example.zobazeexpensetracker.viewmodels
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.zobazeexpensetracker.listeners.ExpenseRepository
-import com.example.zobazeexpensetracker.room.RoomExpenseRepository
-import com.example.zobazeexpensetracker.viewmodels.ExpenseViewModel
+import com.example.zobazeexpensetracker.data.RoomExpenseRepository
 
 class ExpenseViewModelFactory(
     private val repo: RoomExpenseRepository
