@@ -5,6 +5,12 @@
 *A full-featured Android app module for small business owners to track daily expenses. 
 Built with Kotlin, Jetpack Compose, MVVM, and Room Database, this app helps capture, analyze, and export expenses intelligently.
 
+## Apk link 
+apk [Apk](https://drive.google.com/file/d/1wKCz7Eqd9eUfMCZo-XyOPQ0bVVIkrqfd/view?usp=sharing)
+
+## For Design Reference 
+figma link[Figma](https://www.figma.com/design/ftT5VCDHC2pcS6ZjZIecYi/MyExpense-Tracker?node-id=0-1&p=f&t=iB8HGwcfp3TI9F6i-0)
+
 
 ✨ Features
 1. Expense Entry Screen[ScreenShot](https://img.eselt.de/img/18417441_jdI70hDHeShsov9D/ad.jpg)
